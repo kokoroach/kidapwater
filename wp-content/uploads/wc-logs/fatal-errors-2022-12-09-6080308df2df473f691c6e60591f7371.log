@@ -1,0 +1,22 @@
+2022-12-09T03:13:11+00:00 CRITICAL Uncaught Error: Call to undefined function show_message() in E:\xampp\htdocs\kidapwater\wp-content\plugins\woocommerce\includes\wc-core-functions.php:344
+Stack trace:
+#0 E:\xampp\htdocs\kidapwater\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3027): wc_get_template('product-searchf...', Array)
+#1 E:\xampp\htdocs\kidapwater\wp-content\plugins\woocommerce\includes\widgets\class-wc-widget-product-search.php(46): get_product_search_form()
+#2 E:\xampp\htdocs\kidapwater\wp-includes\widgets.php(1257): WC_Widget_Product_Search->widget(Array, Array)
+#3 E:\xampp\htdocs\kidapwater\wp-content\themes\storefront\inc\woocommerce\storefront-woocommerce-template-functions.php(111): the_widget('WC_Widget_Produ...', Array)
+#4 E:\xampp\htdocs\kidapwater\wp-includes\class-wp-hook.php(308): storefront_product_search('')
+#5 E:\xampp\htdocs\kidapwater\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 E:\xampp\htdocs\kidapwater\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 E:\xampp\htdocs\kidapwater\wp-content\themes\storefront\header.php(48): do_action('storefront_head...')
+#8 E:\xampp\htdocs\kidapwater\wp-includes\template.php(783): require_once('E:\\xampp\\htdocs...')
+#9 E:\xampp\htdocs\kidapwater\wp-includes\template.php(718): load_template('E:\\xampp\\htdocs...', true, Array)
+#10 E:\xampp\htdocs\kidapwater\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 E:\xampp\htdocs\kidapwater\wp-content\themes\storefront\template-fullwidth.php(10): get_header()
+#12 E:\xampp\htdocs\kidapwater\wp-includes\template-loader.php(106): include('E:\\xampp\\htdocs...')
+#13 E:\xampp\htdocs\kidapwater\wp-blog-header.php(19): require_once('E:\\xampp\\htdocs...')
+#14 E:\xampp\htdocs\kidapwater\index.php(17): require('E:\\xampp\\htdocs...')
+#15 {main}
+  thrown in E:\xampp\htdocs\kidapwater\wp-content\plugins\woocommerce\includes\wc-core-functions.php on line 344
+
+2022-12-09T03:22:10+00:00 CRITICAL syntax error, unexpected token "," in E:\xampp\htdocs\kidapwater\wp-content\plugins\woocommerce\templates\checkout\payment-notice.php on line 22
+
