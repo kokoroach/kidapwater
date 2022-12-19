@@ -19,5 +19,5 @@ defined( 'ABSPATH' ) || exit;
 
 ?>
 <div class="woocommerce-payment-notice">
-	<?php wc_print_notice( 'You may also pay via GCash: 09XXXXXX', 'notice' ); ?>
+	<?php wc_print_notice( 'You may also pay via GCash: ' . GCASH_NUMBER , 'notice' ); ?>
 </div>
